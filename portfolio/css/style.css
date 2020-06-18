@@ -1,0 +1,109 @@
+  nav{ 
+    width: 100%;
+    height: 40px;
+  background-color:cyan;
+font-size:1.3em;}
+
+  #image-welcome{
+    width:100%;
+    height:600px;}
+
+  main{top:60px;  }
+  
+.section-name{
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom:20px;s
+  font-size:1.6em;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+.flex-div{
+  display:flex;
+  font-family:cursive, Times, "Times New Roman", serif;
+  justify-content:space-around;
+  align-items: center;
+ 
+  
+}
+
+
+  .profil{
+    font-size:1.1em;
+    font-family: cursive, Times, "Times New Roman", serif;
+    grid-column:1 ;
+    grid-row:2;
+        } 
+  .formation{
+    font-size:1.1em;
+    font-family: cursive, Times, "Times New Roman", serif;
+    grid-column: 2;
+    grid-row:2;
+            }
+  .skills{
+    font-size:1.1em;
+    font-family: cursive, Times, "Times New Roman", serif;
+    grid-column: 3;
+    grid-row:2;}
+          
+
+   em{padding-left:80px; 
+     font-size:1.5em;font-family:"Times New Roman";
+      color:blue ;} 
+
+    /* section with grid*/
+      .resume-section{
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;  
+        background-color:springgreen; } 
+
+
+iframe{margin-bottom:20px;}
+
+
+    #about-section{background-color:rgb(171, 226, 164)}
+    #work-section{ background-color: cyan;  }
+    
+    #contact-section{margin-top:20px; }
+    
+    span{font-size:1.5em;font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color:blue ;}
+
+
+    footer{background-color:rgb(40, 171, 211);}
+
+
+
+
+    /*media queries*/
+    /* small devices */
+  @media screen  and (max-width:768px){
+    nav a {display:block;}
+     nav{
+      position:fixed;
+      font-size:0.8em; 
+       width: 10%;
+       height: 100%;
+      }
+      .section-name{
+        padding-left: 80px;}
+        iframe{display:none}
+      #image-welcome{width:100%;height:250px;}
+      .flex-div{flex-direction:column;}
+    }
+    
+
+  /* medium devices */
+  @media screen and (min-width:768pxmax) {
+    nav a {display:block;}
+    nav{ position:fixed; background-color:rgb(105, 238, 43);font-size:1em;  width: 20%; height: 100%;}
+     main{padding-left: 40px;}
+     .section-name{ margin-left: 80px;}
+       iframe{display:none}
+     #image-welcome{width:100%;height:250px;}
+     
+                                          }
+  
+  
